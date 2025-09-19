@@ -33,7 +33,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push fedemarty/docker-graphql:0.1.2
-        docker push fedemarty/docker-graphql:laest
+        docker push fedemarty/docker-graphql:latest
         
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
